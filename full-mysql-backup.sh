@@ -7,7 +7,7 @@
 HOME="<HOME_DIR>"
 DATE=$(date +\%F)
 BACKUPDIR="$HOME/mysqldumps"
-REMOTE="<REMOTE>"
+REMOTE="<REMOTE_SERVER>"
 REMOTEDIR="<REMOTE_DIR>"
 LOGDIR="/var/lib/mysql"
 BINLOG=$(/usr/bin/sudo find $LOGDIR -name "binlog.0*" -mtime 0)
